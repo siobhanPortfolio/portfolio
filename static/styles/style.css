@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 26px;
+}
+
+.viewer {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.slide {
+  width: 100vw;
+  height: 100vh;
+  padding: 4rem;
+  color: white;
+
+  /* align center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /* scroll-snap */
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+}
+
+.slide:nth-child(1) {
+  background-color: #f49592;
+}
+
+.slide:nth-child(2) {
+  background-color: #00b1a0;
+}
+
+.slide:nth-child(3) {
+  background-color: #f4a838;
+}
+
+.slide:nth-child(4) {
+  background-color: #8f93b7;
+}

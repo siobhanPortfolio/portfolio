@@ -4,26 +4,35 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="{{ url_for('static',filename='styles/style.scss') }}"
+      href="{{ url_for('static',filename='styles/style.css') }}"
     />
-    <script src="{{url_for('static', filename='js/snap.js') }}"></script>
-    <script src="{{url_for('static', filename='js/script.js') }}"></script>
   </head>
   <body>
-    <section>
-      <h1>Section One</h1>
-    </section>
-    <section>
-      <h1>Section Two</h1>
-    </section>
-    <section>
-      <h1>Section Three</h1>
-    </section>
-    <section>
-      <h1>Section Four</h1>
-    </section>
-    <section>
-      <h1>Section Five</h1>
-    </section>
+    <article class="viewer">
+      <section class="slide">
+        <h2>Introduction</h2>
+        <p>Hello scroll-snap-type</p>
+      </section>
+      <section class="slide">
+        <h2>Description</h2>
+        <p>
+          The scroll-snap-type CSS property sets how strictly snap points are
+          enforced on the scroll container in case there is one.
+        </p>
+      </section>
+      <section class="slide">
+        <h2>Syntax</h2>
+        <p>
+          <code
+            >scroll-snap-type: none | [x|y|block|inline|both]
+            [mandatory|proximity]</code
+          >
+        </p>
+      </section>
+      <section class="slide">
+        <h2>Browser compatibility</h2>
+        <p>It's OK with the latest version of browser.</p>
+      </section>
+    </article>
   </body>
 </html>
