@@ -161,6 +161,7 @@ img{
 }
 .nav__logo{
   color: var(--second-color);
+  display: flex;
 }
 .nav__toggle{
   color: var(--second-color);
@@ -206,14 +207,13 @@ img{
   color: var(--first-color);
 }
 .home__social{
-  display: flex;
   flex-direction: column;
 }
 .home__social-icon{
   width: max-content;
   margin-bottom: var(--mb-1);
-  font-size: 1.5rem;
-  color: var(--second-color);
+  font-size: 2rem;
+  color: white;
 }
 .home__social-icon:hover{
   color: var(--first-color);
@@ -234,6 +234,7 @@ img{
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: .5rem;
+  margin-right: 1.5rem;
 }
 
 .button:hover{
