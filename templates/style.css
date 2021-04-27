@@ -6,7 +6,7 @@
   --font-semi: 600;
 }
 
-/*===== Colores =====*/
+/*===== Colours =====*/
 :root{
   --first-color: #5a1fc9;
   --second-color: #0E2431;
@@ -27,7 +27,7 @@
   }
 }
 
-/*===== Margenes =====*/
+/*===== Margins =====*/
 :root{
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -102,7 +102,7 @@ img{
 
 /*===== LAYOUT =====*/
 .bd-grid{
-  max-width: 1024px;
+  
   display: grid;
   grid-template-columns: 100%;
   grid-column-gap: 2rem;
@@ -124,7 +124,7 @@ img{
 .nav{
   height: var(--header-height);
   display: flex;
-  justify-content: space-between;
+  justify-content:space-evenly;
   align-items: center;
   font-weight: var(--font-semi);
 }
@@ -190,7 +190,7 @@ img{
   row-gap: 1rem;
   background-image: url(./static/images/splash.jpg);
   background-size: cover;
-  margin: 0 auto;
+  padding: 2rem 0;
 }
 .home__data{
   align-self: center;
@@ -200,7 +200,10 @@ img{
   margin-bottom: var(--mb-5);
 }
 .home__title-color{
-  color: white;
+  color: #f21170;
+}
+.home__description {
+  color: var(--first-color);
 }
 .home__social{
   display: flex;
@@ -226,7 +229,7 @@ img{
 /*BUTTONS*/
 .button{
   display: inline-block;
-  background-color: var(--first-color);
+  background-color:  #f21170;
   color: #fff;
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
