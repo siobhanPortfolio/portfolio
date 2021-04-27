@@ -205,7 +205,7 @@ img{
 }
 .home__social-icon{
   width: max-content;
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-1);
   font-size: 1.5rem;
   color: var(--second-color);
 }
@@ -407,7 +407,7 @@ img{
   }
   .home__social{
     padding-top: 0;
-    padding-bottom: 2.5rem;
+    padding-bottom: 1rem;
     flex-direction: row;
     align-self: flex-end;
   }
