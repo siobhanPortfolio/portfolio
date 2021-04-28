@@ -189,7 +189,7 @@ img{
 .home{
   height: calc(100vh - 3rem);
   row-gap: 1rem;
-  background-image: url(./static/images/splash.jpg);
+  background: url("./splash.jpg") no-repeat;
   background-size: cover;
   padding: 2rem 0;
 }
@@ -355,7 +355,7 @@ img{
 
 /* ===== FOOTER =====*/
 .footer{
-  background-image: url(./static/images/splash.jpg);
+  background: url("./splash.jpg");
   background-size: cover;
   color: #fff;
   text-align: center;
